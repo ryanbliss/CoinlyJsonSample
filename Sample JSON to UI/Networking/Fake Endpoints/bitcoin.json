@@ -1,0 +1,171 @@
+{
+    "page": {
+        "title": "home",
+        "primaryColor": "#FF9600",
+        "backgroundColor": "#E7E9ED",
+        "currentEndpoint": "/v2/screens/home/coinDetails",
+        "lastEndpoint": "/v2/screens/home",
+        "navBarIsHidden": false
+    },
+    "navigationBar": {
+        "theme": "#FF9600",
+        "center": {
+            "title": "Bitcoin",
+            "link": {
+                "nextEndpoint": "coinSelect"
+            }
+        }
+    },
+    "sections": [
+        {
+            "type": "header",
+            "header": {
+                 "theme": "#FF9600",
+                 "labels": [
+                        {
+                            "name": "title",
+                            "text": "Gain on Bitcoin",
+                            "attributes": {
+                                "fontSize": 16,
+                                "font": "futura-light",
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "name": "value",
+                            "text": "$1,021.12",
+                            "attributes": {
+                                "fontSize": 36,
+                                "font": "futura-bold",
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "name": "subValue",
+                            "text": "+24.12%",
+                            "attributes": {
+                                "fontSize": 15,
+                                "font": "FuturaBT-Heavy",
+                                "color": "#EFEFF4"
+                            }
+                        }
+                    ],
+                 "values": [
+                        {
+                            "labels": [
+                               {
+                                   "name": "title",
+                                   "text": "Value",
+                                    "attributes": {
+                                        "fontSize": 16,
+                                        "font": "futura-light",
+                                        "color": "#FFFFFF"
+                                    }
+                               },
+                               {
+                                   "name": "value",
+                                   "text": "$12,012.12",
+                                   "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                   }
+                               }
+                            ]
+                        },
+                        {
+                            "labels": [
+                                   {
+                                       "name": "title",
+                                       "text": "Paid",
+                                       "attributes": {
+                                           "fontSize": 16,
+                                           "font": "futura-light",
+                                           "color": "#FFFFFF"
+                                       }
+                                   },
+                                   {
+                                       "name": "value",
+                                       "text": "$9,324.12",
+                                       "attributes": {
+                                           "fontSize": 16,
+                                           "font": "futura-light",
+                                           "color": "#FFFFFF"
+                                       }
+                                   }
+                               ]
+                        },
+                        {
+                            "labels": [
+                               {
+                                   "name": "title",
+                                   "text": "Net Profit",
+                                   "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                   }
+                               },
+                               {
+                                   "name": "value",
+                                   "text": "$100,324.12",
+                                   "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                   }
+                               }
+                           ]
+                        },
+                        {
+                            "labels": [
+                               {
+                                   "name": "title",
+                                   "text": "Sold",
+                                   "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                   }
+                               },
+                               {
+                                   "name": "value",
+                                   "text": "$1,321.22",
+                                   "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                   }
+                               }
+                           ]
+                    }
+                ]
+            }
+         },
+         {
+            "type": "sectionHeader",
+             "sectionHeader": {
+                 "label": {
+                     "name": "title",
+                     "text": "Market",
+                     "attributes": {
+                         "fontSize": 24,
+                         "font": "FuturaBT-Heavy",
+                         "color": "#3A6073"
+                    }
+                 },
+                 "button": {
+                     "text": "View All",
+                     "attributes": {
+                         "fontSize": 16,
+                         "font": "futura-medium",
+                         "color": "#3A6073"
+                     },
+                     "link": {
+                        "nextEndpoint": "bitcoin"
+                     }
+                 }
+             }
+         }
+     ]
+}

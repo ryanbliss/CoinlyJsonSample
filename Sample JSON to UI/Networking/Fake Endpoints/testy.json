@@ -1,0 +1,520 @@
+{
+    "page": {
+        "title": "home",
+        "primaryColor": "#3A6073",
+        "backgroundColor": "#E7E9ED",
+        "currentEndpoint": "/v2/screens/home",
+        "lastEndpoint": "",
+        "navBarIsHidden": true
+    },
+    "sections": [
+                 {
+                 "type": "header",
+                 "header": {
+                 "theme": "#3A6073",
+                 "labels": [
+                            {
+                            "name": "title",
+                            "text": "Gain on Portfolio",
+                            "attributes": {
+                            "fontSize": 16,
+                            "font": "futura-light",
+                            "color": "#FFFFFF"
+                            }
+                            },
+                            {
+                            "name": "value",
+                            "text": "$12,021.12",
+                            "attributes": {
+                            "fontSize": 36,
+                            "font": "futura-bold",
+                            "color": "#FFFFFF"
+                            }
+                            },
+                            {
+                            "name": "subValue",
+                            "text": "+24.12%",
+                            "attributes": {
+                            "fontSize": 15,
+                            "font": "FuturaBT-Heavy",
+                            "color": "#EFEFF4"
+                            }
+                            }
+                            ],
+                 "values": [
+                            {
+                            "labels": [
+                                       {
+                                       "name": "title",
+                                       "text": "Value",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       },
+                                       {
+                                       "name": "value",
+                                       "text": "$12,012.12",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       }
+                                       ]
+                            },
+                            {
+                            "labels": [
+                                       {
+                                       "name": "title",
+                                       "text": "Paid",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       },
+                                       {
+                                       "name": "value",
+                                       "text": "$9,324.12",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       }
+                                       ]
+                            },
+                            {
+                            "labels": [
+                                       {
+                                       "name": "title",
+                                       "text": "Net Profit",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       },
+                                       {
+                                       "name": "value",
+                                       "text": "$100,324.12",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       }
+                                       ]
+                            },
+                            {
+                            "labels": [
+                                       {
+                                       "name": "title",
+                                       "text": "Sold",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       },
+                                       {
+                                       "name": "value",
+                                       "text": "$1,321.22",
+                                       "attributes": {
+                                       "fontSize": 16,
+                                       "font": "futura-light",
+                                       "color": "#FFFFFF"
+                                       }
+                                       }
+                                       ]
+                            }
+                            ]
+                 }
+                 },
+                 {
+                 "type": "sectionHeader",
+                 "sectionHeader": {
+                 "label": {
+                 "name": "title",
+                 "text": "Accounts",
+                 "attributes": {
+                 "fontSize": 24,
+                 "font": "FuturaBT-Heavy",
+                 "color": "#3A6073"
+                 }
+                 },
+                 "button": {
+                 "text": "View All",
+                 "attributes": {
+                 "fontSize": 16,
+                 "font": "futura-medium",
+                 "color": "#3A6073"
+                 },
+                 "link": {
+                 "nextEndpoint": "accounts"
+                 }
+                 }
+                 }
+                 },
+                 {
+                 "type": "card",
+                 "card": {
+                 "cardRows": [
+                              {
+                              "type": "sectionHeader",
+                              "sectionHeader": {
+                              "label": {
+                              "name": "title",
+                              "text": "Ripple",
+                              "attributes": {
+                              "fontSize": 20,
+                              "font": "FuturaBT-Heavy",
+                              "color": "#157EAC"
+                              }
+                              },
+                              "button": {
+                              "text": "View More",
+                              "attributes": {
+                              "fontSize": 14,
+                              "font": "futura-medium",
+                              "color": "#157EAC"
+                              },
+                              "link": {
+                              "nextEndpoint": "ripple"
+                              }
+                              }
+                              }
+                              },
+                              {
+                              "type": "cardLargeValue",
+                              "cardLargeValue": [
+                                                 {
+                                                 "name": "title",
+                                                 "text": "Gain on Portfolio",
+                                                 "attributes": {
+                                                 "fontSize": 14,
+                                                 "font": "futura-light",
+                                                 "color": "#5E6877"
+                                                 }
+                                                 },
+                                                 {
+                                                 "name": "value",
+                                                 "text": "$12,021.12",
+                                                 "attributes": {
+                                                 "fontSize": 28,
+                                                 "font": "futura-bold",
+                                                 "color": "#232526"
+                                                 }
+                                                 },
+                                                 {
+                                                 "name": "subValue",
+                                                 "text": "+24.12%",
+                                                 "attributes": {
+                                                 "fontSize": 14,
+                                                 "font": "FuturaBT-Heavy",
+                                                 "color": "#00D982"
+                                                 }
+                                                 }
+                                                 ]
+                              },
+                              {
+                              "type": "cardCollectionValues",
+                              "cardCollectionValues": [
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Price",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$1.41",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Value",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$12,012.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Paid",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$9,324.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Net Profit",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$100,324.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Sold",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$1,321.22",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       }
+                                                       ]
+                              }
+                              ]
+                 }
+                 },
+                 {
+                 "type": "card",
+                 "card": {
+                 "cardRows": [
+                              {
+                              "type": "sectionHeader",
+                              "sectionHeader": {
+                              "label": {
+                              "name": "title",
+                              "text": "Bitcoin",
+                              "attributes": {
+                              "fontSize": 20,
+                              "font": "FuturaBT-Heavy",
+                              "color": "#FF9600"
+                              }
+                              },
+                              "button": {
+                              "text": "View More",
+                              "attributes": {
+                              "fontSize": 14,
+                              "font": "futura-medium",
+                              "color": "#FF9600"
+                              },
+                              "link": {
+                              "nextEndpoint": "bitcoin"
+                              }
+                              }
+                              }
+                              },
+                              {
+                              "type": "cardLargeValue",
+                              "cardLargeValue": [
+                                                 {
+                                                 "name": "title",
+                                                 "text": "Loss on Portfolio",
+                                                 "attributes": {
+                                                 "fontSize": 14,
+                                                 "font": "futura-light",
+                                                 "color": "#5E6877"
+                                                 }
+                                                 },
+                                                 {
+                                                 "name": "value",
+                                                 "text": "-$221.12",
+                                                 "attributes": {
+                                                 "fontSize": 28,
+                                                 "font": "futura-bold",
+                                                 "color": "#232526"
+                                                 }
+                                                 },
+                                                 {
+                                                 "name": "subValue",
+                                                 "text": "-8.15%",
+                                                 "attributes": {
+                                                 "fontSize": 14,
+                                                 "font": "FuturaBT-Heavy",
+                                                 "color": "#FE3824"
+                                                 }
+                                                 }
+                                                 ]
+                              },
+                              {
+                              "type": "cardCollectionValues",
+                              "cardCollectionValues": [
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Price",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$9,012.41",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Value",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$12,012.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Paid",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$9,324.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Net Profit",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$100,324.12",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       },
+                                                       {
+                                                       "labels": [
+                                                                  {
+                                                                  "name": "title",
+                                                                  "text": "Sold",
+                                                                  "attributes": {
+                                                                  "fontSize": 13,
+                                                                  "font": "futura-medium",
+                                                                  "color": "#5E6877"
+                                                                  }
+                                                                  },
+                                                                  {
+                                                                  "name": "value",
+                                                                  "text": "$1,321.22",
+                                                                  "attributes": {
+                                                                  "fontSize": 20,
+                                                                  "font": "futura-heavy",
+                                                                  "color": "#232526"
+                                                                  }
+                                                                  }
+                                                                  ]
+                                                       }
+                                                       ]
+                              }
+                              ]
+                 }
+                 }
+                 ]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardHeaderView" customModule="Sample_JSON_to_UI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoD-GW-rzJ">
+                    <rect key="frame" x="24" y="36" width="34" height="687"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlP-eL-2te">
+                    <rect key="frame" x="347" y="36" width="43" height="689"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="pressButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="RGr-97-Lcm"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KnU-nV-dAg">
+                    <rect key="frame" x="0.0" y="735" width="414" height="1"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="lFV-Aq-hKu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zoD-GW-rzJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="8dq-Pa-B0Y"/>
+                <constraint firstAttribute="trailing" secondItem="KnU-nV-dAg" secondAttribute="trailing" id="9D2-K9-SQ6"/>
+                <constraint firstItem="BlP-eL-2te" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="COP-pg-kkr"/>
+                <constraint firstItem="KnU-nV-dAg" firstAttribute="top" secondItem="zoD-GW-rzJ" secondAttribute="bottom" constant="12" id="LX0-Nn-J9w"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="KnU-nV-dAg" secondAttribute="bottom" id="THT-O4-PV0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BlP-eL-2te" secondAttribute="trailing" constant="24" id="YMG-oV-VjL"/>
+                <constraint firstItem="KnU-nV-dAg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bbj-kh-AcL"/>
+                <constraint firstItem="KnU-nV-dAg" firstAttribute="top" secondItem="BlP-eL-2te" secondAttribute="bottom" constant="10" id="fkv-h7-zkn"/>
+                <constraint firstItem="zoD-GW-rzJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="wMX-NO-cof"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="button" destination="BlP-eL-2te" id="0qc-u6-5Ye"/>
+                <outlet property="title" destination="zoD-GW-rzJ" id="Max-PQ-Njo"/>
+            </connections>
+        </view>
+    </objects>
+</document>

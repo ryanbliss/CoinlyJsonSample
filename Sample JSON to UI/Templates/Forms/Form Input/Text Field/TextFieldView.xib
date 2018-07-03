@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+        <array key="MyFutura-Light-bt.otf">
+            <string>FuturaBT-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TextFieldView" customModule="Sample_JSON_to_UI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7W-hq-La5">
+                    <rect key="frame" x="16" y="32" width="39.5" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-T3-7o5">
+                    <rect key="frame" x="16" y="61" width="343" height="593"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="FuturaBT-Light" family="Futura Lt BT" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RAt-pY-d4D">
+                    <rect key="frame" x="16" y="666" width="343" height="1"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="UcS-DX-mU6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9bi-T3-7o5" secondAttribute="trailing" constant="16" id="2Eo-BU-0Wd"/>
+                <constraint firstItem="m7W-hq-La5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="7h3-XH-x44"/>
+                <constraint firstAttribute="trailing" secondItem="RAt-pY-d4D" secondAttribute="trailing" constant="16" id="9VP-UQ-59V"/>
+                <constraint firstItem="m7W-hq-La5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="A1K-fY-8a7"/>
+                <constraint firstItem="RAt-pY-d4D" firstAttribute="top" secondItem="9bi-T3-7o5" secondAttribute="bottom" constant="12" id="ECC-An-qYh"/>
+                <constraint firstItem="9bi-T3-7o5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="JxA-pu-yG0"/>
+                <constraint firstItem="9bi-T3-7o5" firstAttribute="top" secondItem="m7W-hq-La5" secondAttribute="bottom" constant="8" id="YCB-16-mzg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RAt-pY-d4D" secondAttribute="bottom" id="gHo-bm-VXx"/>
+                <constraint firstItem="RAt-pY-d4D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="w3k-qV-d3O"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="label" destination="m7W-hq-La5" id="Q3D-0M-hd3"/>
+                <outlet property="textField" destination="9bi-T3-7o5" id="wpH-b3-RwO"/>
+            </connections>
+            <point key="canvasLocation" x="12.5" y="-38.5"/>
+        </view>
+    </objects>
+</document>

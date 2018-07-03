@@ -7,14 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1202077520551BC6002ECEEB /* MyFutura-Extra-Black-bt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076720551BC5002ECEEB /* MyFutura-Extra-Black-bt.otf */; };
+		1202077620551BC6002ECEEB /* MyFutura-Extra-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076820551BC5002ECEEB /* MyFutura-Extra-Black.otf */; };
+		1202077720551BC6002ECEEB /* MyFutura-Book-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076920551BC5002ECEEB /* MyFutura-Book-Italic.otf */; };
+		1202077820551BC6002ECEEB /* MyFutura-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076A20551BC5002ECEEB /* MyFutura-Bold-Italic.otf */; };
+		1202077920551BC6002ECEEB /* MyFutura-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076B20551BC5002ECEEB /* MyFutura-Light.otf */; };
+		1202077A20551BC6002ECEEB /* MyFutura-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076C20551BC5002ECEEB /* MyFutura-Book.otf */; };
+		1202077B20551BC6002ECEEB /* MyFutura-Medium-Itallic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076D20551BC5002ECEEB /* MyFutura-Medium-Itallic.otf */; };
+		1202077C20551BC6002ECEEB /* MyFutura-Heavy-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076E20551BC5002ECEEB /* MyFutura-Heavy-Italic.otf */; };
+		1202077D20551BC6002ECEEB /* MyFutura-Light-bt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202076F20551BC5002ECEEB /* MyFutura-Light-bt.otf */; };
+		1202077E20551BC6002ECEEB /* MyFutura-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202077020551BC6002ECEEB /* MyFutura-Light-Italic.otf */; };
+		1202077F20551BC6002ECEEB /* MyFutura-Medium-Condensed-bt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202077120551BC6002ECEEB /* MyFutura-Medium-Condensed-bt.otf */; };
+		1202078020551BC6002ECEEB /* MyFutura-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202077220551BC6002ECEEB /* MyFutura-Bold.otf */; };
+		1202078120551BC6002ECEEB /* MyFutura-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202077320551BC6002ECEEB /* MyFutura-Heavy.otf */; };
+		1202078220551BC6002ECEEB /* MyFutura-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202077420551BC6002ECEEB /* MyFutura-Medium.otf */; };
+		1202078720553268002ECEEB /* HeaderValueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202078520553268002ECEEB /* HeaderValueCollectionViewCell.swift */; };
+		1202078820553268002ECEEB /* HeaderValueCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1202078620553268002ECEEB /* HeaderValueCollectionViewCell.xib */; };
+		12173F232055DBD400B67E2A /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12173F222055DBD400B67E2A /* Templates.swift */; };
+		12382907206DDF7E00350EA4 /* CurrencyFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12382904206DDF7E00350EA4 /* CurrencyFieldView.swift */; };
+		12382908206DDF7E00350EA4 /* CurrencyFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12382905206DDF7E00350EA4 /* CurrencyFieldValidation.swift */; };
+		12382909206DDF7E00350EA4 /* CurrencyFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12382906206DDF7E00350EA4 /* CurrencyFieldView.xib */; };
+		1238290E206DE96200350EA4 /* CenterCardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1238290C206DE96100350EA4 /* CenterCardHeaderView.xib */; };
+		1238290F206DE96200350EA4 /* CenterCardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238290D206DE96100350EA4 /* CenterCardHeaderView.swift */; };
+		123C575A2055E732005C6B84 /* ripple.json in Resources */ = {isa = PBXBuildFile; fileRef = 123C57592055E732005C6B84 /* ripple.json */; };
+		123C575C20563B7D005C6B84 /* FontDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C575B20563B7D005C6B84 /* FontDetect.swift */; };
+		123C575F205642C1005C6B84 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C575D205642C1005C6B84 /* CardTableViewCell.swift */; };
+		123C5760205642C1005C6B84 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123C575E205642C1005C6B84 /* CardTableViewCell.xib */; };
+		123C57632056476F005C6B84 /* CardTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123C57622056476F005C6B84 /* CardTableViewModel.swift */; };
+		12657882207EC6C600DBBE8E /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12657881207EC6C600DBBE8E /* AlertHelper.swift */; };
+		12657884207F0D6B00DBBE8E /* DoubleFieldValidatiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12657883207F0D6B00DBBE8E /* DoubleFieldValidatiton.swift */; };
+		12657889207FE01200DBBE8E /* DateTimeFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12657887207FE01100DBBE8E /* DateTimeFieldView.swift */; };
+		1265788A207FE01200DBBE8E /* DateTimeFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12657888207FE01100DBBE8E /* DateTimeFieldView.xib */; };
+		1265788C207FE05700DBBE8E /* DateTimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265788B207FE05700DBBE8E /* DateTimeHelper.swift */; };
+		1265788E207FE5A000DBBE8E /* ToolbarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265788D207FE5A000DBBE8E /* ToolbarExtension.swift */; };
+		1265789120800B0D00DBBE8E /* addRippleTransfer.json in Resources */ = {isa = PBXBuildFile; fileRef = 1265789020800B0C00DBBE8E /* addRippleTransfer.json */; };
+		126578952080107B00DBBE8E /* addRippleTrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 126578942080107A00DBBE8E /* addRippleTrade.json */; };
+		1265789A2080393D00DBBE8E /* NavigationBarSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126578992080393D00DBBE8E /* NavigationBarSetup.swift */; };
+		1265789D20803E1200DBBE8E /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265789C20803E1200DBBE8E /* FooterView.swift */; };
+		126578A22080428600DBBE8E /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126578A12080428600DBBE8E /* FooterView.xib */; };
+		126578A42080440B00DBBE8E /* FooterSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126578A32080440B00DBBE8E /* FooterSetup.swift */; };
+		126578A62080519C00DBBE8E /* UpdateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126578A52080519C00DBBE8E /* UpdateData.swift */; };
 		1276ED312054A83600EB9105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED302054A83600EB9105 /* AppDelegate.swift */; };
 		1276ED332054A83600EB9105 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED322054A83600EB9105 /* FirstViewController.swift */; };
-		1276ED352054A83600EB9105 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED342054A83600EB9105 /* SecondViewController.swift */; };
+		1276ED352054A83600EB9105 /* EditJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED342054A83600EB9105 /* EditJsonViewController.swift */; };
 		1276ED382054A83600EB9105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED362054A83600EB9105 /* Main.storyboard */; };
 		1276ED3A2054A83600EB9105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED392054A83600EB9105 /* Assets.xcassets */; };
 		1276ED3D2054A83600EB9105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED3B2054A83600EB9105 /* LaunchScreen.storyboard */; };
 		1276ED482054A83600EB9105 /* Sample_JSON_to_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED472054A83600EB9105 /* Sample_JSON_to_UITests.swift */; };
 		1276ED532054A83600EB9105 /* Sample_JSON_to_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED522054A83600EB9105 /* Sample_JSON_to_UIUITests.swift */; };
+		1276ED652054AB5600EB9105 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED632054AB5600EB9105 /* HeaderTableViewCell.swift */; };
+		1276ED662054AB5600EB9105 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED642054AB5600EB9105 /* HeaderTableViewCell.xib */; };
+		1276ED6D2054AFAF00EB9105 /* SectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED6B2054AFAF00EB9105 /* SectionHeaderTableViewCell.swift */; };
+		1276ED6E2054AFAF00EB9105 /* SectionHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED6C2054AFAF00EB9105 /* SectionHeaderTableViewCell.xib */; };
+		1276ED702054B13600EB9105 /* CellCreateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED6F2054B13600EB9105 /* CellCreateManager.swift */; };
+		1276ED772054B3D200EB9105 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED762054B3D200EB9105 /* DataManager.swift */; };
+		1276ED7F2054B85500EB9105 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED7E2054B85500EB9105 /* Base.swift */; };
+		1276ED812054BB8400EB9105 /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED802054BB8400EB9105 /* UIElements.swift */; };
+		1276ED832054C93000EB9105 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED822054C93000EB9105 /* NetworkingManager.swift */; };
+		1276ED862054CD7100EB9105 /* testy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1276ED852054CD7000EB9105 /* testy.json */; };
+		1276ED882054D0DD00EB9105 /* FirstViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED872054D0DD00EB9105 /* FirstViewControllerViewModel.swift */; };
+		1276ED98205507AD00EB9105 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276ED97205507AD00EB9105 /* ColorHelper.swift */; };
+		1276EDBC20550BF800EB9105 /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276EDBB20550BF800EB9105 /* GenericTableViewCell.swift */; };
+		127F555F206C9D15007F2A32 /* addRipplePurchase.json in Resources */ = {isa = PBXBuildFile; fileRef = 127F555E206C9D15007F2A32 /* addRipplePurchase.json */; };
+		127F5561206C9FB8007F2A32 /* FormElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5560206C9FB8007F2A32 /* FormElements.swift */; };
+		127F5563206DC2D3007F2A32 /* GenericTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5562206DC2D3007F2A32 /* GenericTabBarController.swift */; };
+		127F5565206DC79C007F2A32 /* DropdownFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5564206DC79C007F2A32 /* DropdownFieldView.swift */; };
+		127F5568206DC7F7007F2A32 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5567206DC7F7007F2A32 /* TextFieldView.swift */; };
+		127F556A206DCA7A007F2A32 /* FieldInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5569206DCA7A007F2A32 /* FieldInputView.swift */; };
+		127F556C206DCAB0007F2A32 /* DropdownFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127F556B206DCAB0007F2A32 /* DropdownFieldView.xib */; };
+		127F5576206DCB14007F2A32 /* FieldInputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5575206DCB14007F2A32 /* FieldInputValidation.swift */; };
+		127F5578206DCF65007F2A32 /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127F5577206DCF64007F2A32 /* TextFieldView.xib */; };
+		127F557A206DD0AB007F2A32 /* BaseNibsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5579206DD0AB007F2A32 /* BaseNibsCreator.swift */; };
+		127F557C206DD1BA007F2A32 /* CardViewsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F557B206DD1BA007F2A32 /* CardViewsCreator.swift */; };
+		127F5580206DD430007F2A32 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F557F206DD430007F2A32 /* FormView.swift */; };
+		127F5582206DD445007F2A32 /* FormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127F5581206DD445007F2A32 /* FormView.xib */; };
+		127F5584206DD92F007F2A32 /* FormViewsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F5583206DD92F007F2A32 /* FormViewsCreator.swift */; };
+		1288A74B205774FB008933A7 /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A74A205774FB008933A7 /* CardHeaderView.swift */; };
+		1288A74D20577534008933A7 /* CardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1288A74C20577534008933A7 /* CardHeaderView.xib */; };
+		1288A75020577BE1008933A7 /* GenericCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A74F20577BE1008933A7 /* GenericCardView.swift */; };
+		1288A75320577DE0008933A7 /* CardLargeValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A75220577DE0008933A7 /* CardLargeValueView.swift */; };
+		1288A75520577DED008933A7 /* CardLargeValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1288A75420577DED008933A7 /* CardLargeValueView.xib */; };
+		1288A7582057801C008933A7 /* CardCollectionValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A7572057801C008933A7 /* CardCollectionValuesView.swift */; };
+		1288A75A2057802D008933A7 /* CardCollectionValuesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1288A7592057802D008933A7 /* CardCollectionValuesView.xib */; };
+		1288A75E20578442008933A7 /* CardCollectionValueCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A75C20578442008933A7 /* CardCollectionValueCellCollectionViewCell.swift */; };
+		1288A75F20578442008933A7 /* CardCollectionValueCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1288A75D20578442008933A7 /* CardCollectionValueCellCollectionViewCell.xib */; };
+		1288A76220578867008933A7 /* CardBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A76120578867008933A7 /* CardBGView.swift */; };
+		1288A76420578FBD008933A7 /* bitcoin.json in Resources */ = {isa = PBXBuildFile; fileRef = 1288A76320578FBD008933A7 /* bitcoin.json */; };
+		1288A7672057930F008933A7 /* accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1288A7662057930F008933A7 /* accounts.json */; };
+		12A2D65B2086DEFE00B20891 /* EditJsonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2D65A2086DEFE00B20891 /* EditJsonViewModel.swift */; };
+		8C52D766DBACB44ADA202431 /* Pods_Sample_JSON_to_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F501C183E16684F3E610CCF /* Pods_Sample_JSON_to_UITests.framework */; };
+		B0FBB925CC40ECE5E7BD48ED /* Pods_Sample_JSON_to_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F40F21FC898D194A516AE0 /* Pods_Sample_JSON_to_UI.framework */; };
+		C428CA1E59A63EBE3C01614B /* Pods_Sample_JSON_to_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EC7F61D13B80B1C2FA1D33 /* Pods_Sample_JSON_to_UIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +118,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1202076720551BC5002ECEEB /* MyFutura-Extra-Black-bt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Extra-Black-bt.otf"; sourceTree = "<group>"; };
+		1202076820551BC5002ECEEB /* MyFutura-Extra-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Extra-Black.otf"; sourceTree = "<group>"; };
+		1202076920551BC5002ECEEB /* MyFutura-Book-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Book-Italic.otf"; sourceTree = "<group>"; };
+		1202076A20551BC5002ECEEB /* MyFutura-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Bold-Italic.otf"; sourceTree = "<group>"; };
+		1202076B20551BC5002ECEEB /* MyFutura-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Light.otf"; sourceTree = "<group>"; };
+		1202076C20551BC5002ECEEB /* MyFutura-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Book.otf"; sourceTree = "<group>"; };
+		1202076D20551BC5002ECEEB /* MyFutura-Medium-Itallic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Medium-Itallic.otf"; sourceTree = "<group>"; };
+		1202076E20551BC5002ECEEB /* MyFutura-Heavy-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Heavy-Italic.otf"; sourceTree = "<group>"; };
+		1202076F20551BC5002ECEEB /* MyFutura-Light-bt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Light-bt.otf"; sourceTree = "<group>"; };
+		1202077020551BC6002ECEEB /* MyFutura-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Light-Italic.otf"; sourceTree = "<group>"; };
+		1202077120551BC6002ECEEB /* MyFutura-Medium-Condensed-bt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Medium-Condensed-bt.otf"; sourceTree = "<group>"; };
+		1202077220551BC6002ECEEB /* MyFutura-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Bold.otf"; sourceTree = "<group>"; };
+		1202077320551BC6002ECEEB /* MyFutura-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyFutura-Heavy.otf"; path = "../../../../../../../Startup Stuff/Coinly App/Assets/Website/Font/OTF/MyFutura-Heavy.otf"; sourceTree = "<group>"; };
+		1202077420551BC6002ECEEB /* MyFutura-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFutura-Medium.otf"; sourceTree = "<group>"; };
+		1202078520553268002ECEEB /* HeaderValueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValueCollectionViewCell.swift; sourceTree = "<group>"; };
+		1202078620553268002ECEEB /* HeaderValueCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderValueCollectionViewCell.xib; sourceTree = "<group>"; };
+		12173F222055DBD400B67E2A /* Templates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
+		12382904206DDF7E00350EA4 /* CurrencyFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFieldView.swift; sourceTree = "<group>"; };
+		12382905206DDF7E00350EA4 /* CurrencyFieldValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFieldValidation.swift; sourceTree = "<group>"; };
+		12382906206DDF7E00350EA4 /* CurrencyFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyFieldView.xib; sourceTree = "<group>"; };
+		1238290C206DE96100350EA4 /* CenterCardHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterCardHeaderView.xib; sourceTree = "<group>"; };
+		1238290D206DE96100350EA4 /* CenterCardHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCardHeaderView.swift; sourceTree = "<group>"; };
+		123C57592055E732005C6B84 /* ripple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ripple.json; sourceTree = "<group>"; };
+		123C575B20563B7D005C6B84 /* FontDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetect.swift; sourceTree = "<group>"; };
+		123C575D205642C1005C6B84 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		123C575E205642C1005C6B84 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		123C57622056476F005C6B84 /* CardTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewModel.swift; sourceTree = "<group>"; };
+		12657881207EC6C600DBBE8E /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		12657883207F0D6B00DBBE8E /* DoubleFieldValidatiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleFieldValidatiton.swift; sourceTree = "<group>"; };
+		12657887207FE01100DBBE8E /* DateTimeFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeFieldView.swift; sourceTree = "<group>"; };
+		12657888207FE01100DBBE8E /* DateTimeFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimeFieldView.xib; sourceTree = "<group>"; };
+		1265788B207FE05700DBBE8E /* DateTimeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeHelper.swift; sourceTree = "<group>"; };
+		1265788D207FE5A000DBBE8E /* ToolbarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarExtension.swift; sourceTree = "<group>"; };
+		1265789020800B0C00DBBE8E /* addRippleTransfer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addRippleTransfer.json; sourceTree = "<group>"; };
+		126578942080107A00DBBE8E /* addRippleTrade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addRippleTrade.json; sourceTree = "<group>"; };
+		126578992080393D00DBBE8E /* NavigationBarSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarSetup.swift; sourceTree = "<group>"; };
+		1265789C20803E1200DBBE8E /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		126578A12080428600DBBE8E /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		126578A32080440B00DBBE8E /* FooterSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSetup.swift; sourceTree = "<group>"; };
+		126578A52080519C00DBBE8E /* UpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateData.swift; sourceTree = "<group>"; };
 		1276ED2D2054A83600EB9105 /* Sample JSON to UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample JSON to UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1276ED302054A83600EB9105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1276ED322054A83600EB9105 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1276ED342054A83600EB9105 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1276ED342054A83600EB9105 /* EditJsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJsonViewController.swift; sourceTree = "<group>"; };
 		1276ED372054A83600EB9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1276ED392054A83600EB9105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1276ED3C2054A83600EB9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +172,55 @@
 		1276ED4E2054A83600EB9105 /* Sample JSON to UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample JSON to UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1276ED522054A83600EB9105 /* Sample_JSON_to_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_JSON_to_UIUITests.swift; sourceTree = "<group>"; };
 		1276ED542054A83600EB9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1276ED632054AB5600EB9105 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		1276ED642054AB5600EB9105 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		1276ED6B2054AFAF00EB9105 /* SectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		1276ED6C2054AFAF00EB9105 /* SectionHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		1276ED6F2054B13600EB9105 /* CellCreateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCreateManager.swift; sourceTree = "<group>"; };
+		1276ED762054B3D200EB9105 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1276ED7E2054B85500EB9105 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		1276ED802054BB8400EB9105 /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		1276ED822054C93000EB9105 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		1276ED852054CD7000EB9105 /* testy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testy.json; sourceTree = "<group>"; };
+		1276ED872054D0DD00EB9105 /* FirstViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerViewModel.swift; sourceTree = "<group>"; };
+		1276ED97205507AD00EB9105 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		1276EDBB20550BF800EB9105 /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		127F555E206C9D15007F2A32 /* addRipplePurchase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addRipplePurchase.json; sourceTree = "<group>"; };
+		127F5560206C9FB8007F2A32 /* FormElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormElements.swift; sourceTree = "<group>"; };
+		127F5562206DC2D3007F2A32 /* GenericTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTabBarController.swift; sourceTree = "<group>"; };
+		127F5564206DC79C007F2A32 /* DropdownFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownFieldView.swift; sourceTree = "<group>"; };
+		127F5567206DC7F7007F2A32 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		127F5569206DCA7A007F2A32 /* FieldInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldInputView.swift; sourceTree = "<group>"; };
+		127F556B206DCAB0007F2A32 /* DropdownFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropdownFieldView.xib; sourceTree = "<group>"; };
+		127F5575206DCB14007F2A32 /* FieldInputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldInputValidation.swift; sourceTree = "<group>"; };
+		127F5577206DCF64007F2A32 /* TextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		127F5579206DD0AB007F2A32 /* BaseNibsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNibsCreator.swift; sourceTree = "<group>"; };
+		127F557B206DD1BA007F2A32 /* CardViewsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewsCreator.swift; sourceTree = "<group>"; };
+		127F557F206DD430007F2A32 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		127F5581206DD445007F2A32 /* FormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormView.xib; sourceTree = "<group>"; };
+		127F5583206DD92F007F2A32 /* FormViewsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewsCreator.swift; sourceTree = "<group>"; };
+		1288A74A205774FB008933A7 /* CardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardHeaderView.swift; path = "Sample JSON to UI/Templates/Card Cell/Card Templates/Card Header/Default/CardHeaderView.swift"; sourceTree = SOURCE_ROOT; };
+		1288A74C20577534008933A7 /* CardHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardHeaderView.xib; sourceTree = "<group>"; };
+		1288A74F20577BE1008933A7 /* GenericCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCardView.swift; sourceTree = "<group>"; };
+		1288A75220577DE0008933A7 /* CardLargeValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLargeValueView.swift; sourceTree = "<group>"; };
+		1288A75420577DED008933A7 /* CardLargeValueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardLargeValueView.xib; sourceTree = "<group>"; };
+		1288A7572057801C008933A7 /* CardCollectionValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionValuesView.swift; sourceTree = "<group>"; };
+		1288A7592057802D008933A7 /* CardCollectionValuesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionValuesView.xib; sourceTree = "<group>"; };
+		1288A75C20578442008933A7 /* CardCollectionValueCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionValueCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		1288A75D20578442008933A7 /* CardCollectionValueCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionValueCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		1288A76120578867008933A7 /* CardBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBGView.swift; sourceTree = "<group>"; };
+		1288A76320578FBD008933A7 /* bitcoin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bitcoin.json; sourceTree = "<group>"; };
+		1288A7662057930F008933A7 /* accounts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accounts.json; sourceTree = "<group>"; };
+		12A2D65A2086DEFE00B20891 /* EditJsonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJsonViewModel.swift; sourceTree = "<group>"; };
+		17374B13AE7E686CD08219BF /* Pods-Sample JSON to UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UIUITests/Pods-Sample JSON to UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33CBB7F52A41F2E73633E62A /* Pods-Sample JSON to UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UITests/Pods-Sample JSON to UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F501C183E16684F3E610CCF /* Pods_Sample_JSON_to_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_JSON_to_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44952924D3BE40700CCD58EA /* Pods-Sample JSON to UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UIUITests/Pods-Sample JSON to UIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85CCCB563D72A7F5B3C1E491 /* Pods-Sample JSON to UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UI/Pods-Sample JSON to UI.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1EB09E01A39A2C5C67F400 /* Pods-Sample JSON to UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UITests/Pods-Sample JSON to UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD9728037B41E3D43F3AFB6B /* Pods-Sample JSON to UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample JSON to UI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample JSON to UI/Pods-Sample JSON to UI.release.xcconfig"; sourceTree = "<group>"; };
+		E2F40F21FC898D194A516AE0 /* Pods_Sample_JSON_to_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_JSON_to_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EC7F61D13B80B1C2FA1D33 /* Pods_Sample_JSON_to_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_JSON_to_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FBB925CC40ECE5E7BD48ED /* Pods_Sample_JSON_to_UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C52D766DBACB44ADA202431 /* Pods_Sample_JSON_to_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +244,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C428CA1E59A63EBE3C01614B /* Pods_Sample_JSON_to_UIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120207892055326E002ECEEB /* Header Value Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1202078520553268002ECEEB /* HeaderValueCollectionViewCell.swift */,
+				1202078620553268002ECEEB /* HeaderValueCollectionViewCell.xib */,
+			);
+			path = "Header Value Cell";
+			sourceTree = "<group>";
+		};
+		12382903206DDF7E00350EA4 /* Currency Field */ = {
+			isa = PBXGroup;
+			children = (
+				12382904206DDF7E00350EA4 /* CurrencyFieldView.swift */,
+				12382905206DDF7E00350EA4 /* CurrencyFieldValidation.swift */,
+				12382906206DDF7E00350EA4 /* CurrencyFieldView.xib */,
+			);
+			path = "Currency Field";
+			sourceTree = "<group>";
+		};
+		1238290A206DE90B00350EA4 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				1288A74A205774FB008933A7 /* CardHeaderView.swift */,
+				1288A74C20577534008933A7 /* CardHeaderView.xib */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		1238290B206DE96100350EA4 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				1238290C206DE96100350EA4 /* CenterCardHeaderView.xib */,
+				1238290D206DE96100350EA4 /* CenterCardHeaderView.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		123C5761205642C6005C6B84 /* Card Cell */ = {
+			isa = PBXGroup;
+			children = (
+				123C575D205642C1005C6B84 /* CardTableViewCell.swift */,
+				123C57622056476F005C6B84 /* CardTableViewModel.swift */,
+				123C575E205642C1005C6B84 /* CardTableViewCell.xib */,
+				1288A76120578867008933A7 /* CardBGView.swift */,
+				1288A75120577C90008933A7 /* Card Templates */,
+			);
+			path = "Card Cell";
+			sourceTree = "<group>";
+		};
+		12657885207F0D9900DBBE8E /* Validation Types */ = {
+			isa = PBXGroup;
+			children = (
+				12657883207F0D6B00DBBE8E /* DoubleFieldValidatiton.swift */,
+			);
+			path = "Validation Types";
+			sourceTree = "<group>";
+		};
+		12657886207FE01100DBBE8E /* Date and Time Field */ = {
+			isa = PBXGroup;
+			children = (
+				12657887207FE01100DBBE8E /* DateTimeFieldView.swift */,
+				12657888207FE01100DBBE8E /* DateTimeFieldView.xib */,
+			);
+			path = "Date and Time Field";
+			sourceTree = "<group>";
+		};
+		1265788F207FE5A600DBBE8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1265788D207FE5A000DBBE8E /* ToolbarExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1265789B2080394000DBBE8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				126578992080393D00DBBE8E /* NavigationBarSetup.swift */,
+				126578A32080440B00DBBE8E /* FooterSetup.swift */,
+				126578A52080519C00DBBE8E /* UpdateData.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1265789E20803E1E00DBBE8E /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				1265789C20803E1200DBBE8E /* FooterView.swift */,
+				126578A12080428600DBBE8E /* FooterView.xib */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
 		1276ED242054A83600EB9105 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +351,8 @@
 				1276ED462054A83600EB9105 /* Sample JSON to UITests */,
 				1276ED512054A83600EB9105 /* Sample JSON to UIUITests */,
 				1276ED2E2054A83600EB9105 /* Products */,
+				7C772339E4A8F8B196EE1AED /* Pods */,
+				69BB6B1353E8D3438DE8316B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +370,17 @@
 			isa = PBXGroup;
 			children = (
 				1276ED302054A83600EB9105 /* AppDelegate.swift */,
-				1276ED322054A83600EB9105 /* FirstViewController.swift */,
-				1276ED342054A83600EB9105 /* SecondViewController.swift */,
 				1276ED362054A83600EB9105 /* Main.storyboard */,
+				127F5562206DC2D3007F2A32 /* GenericTabBarController.swift */,
+				1276ED892054D0E300EB9105 /* FirstViewController */,
+				12A2D65C2086DF0200B20891 /* Edit Json */,
+				1276ED9A20550A0800EB9105 /* Fonts */,
+				1276ED842054C93A00EB9105 /* Networking */,
+				1276ED782054B3D600EB9105 /* Data Manager */,
+				1276ED712054B13B00EB9105 /* Cell Create */,
+				1276EDBA20550BD000EB9105 /* Templates */,
+				1276ED99205507B400EB9105 /* Helpers */,
+				1265788F207FE5A600DBBE8E /* Extensions */,
 				1276ED392054A83600EB9105 /* Assets.xcassets */,
 				1276ED3B2054A83600EB9105 /* LaunchScreen.storyboard */,
 				1276ED3E2054A83600EB9105 /* Info.plist */,
@@ -128,6 +406,272 @@
 			path = "Sample JSON to UIUITests";
 			sourceTree = "<group>";
 		};
+		1276ED602054AB0900EB9105 /* Header Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED632054AB5600EB9105 /* HeaderTableViewCell.swift */,
+				1276ED642054AB5600EB9105 /* HeaderTableViewCell.xib */,
+				120207892055326E002ECEEB /* Header Value Cell */,
+			);
+			path = "Header Cell";
+			sourceTree = "<group>";
+		};
+		1276ED6A2054AF4100EB9105 /* Section Header Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED6B2054AFAF00EB9105 /* SectionHeaderTableViewCell.swift */,
+				1276ED6C2054AFAF00EB9105 /* SectionHeaderTableViewCell.xib */,
+			);
+			path = "Section Header Cell";
+			sourceTree = "<group>";
+		};
+		1276ED712054B13B00EB9105 /* Cell Create */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED6F2054B13600EB9105 /* CellCreateManager.swift */,
+				127F557D206DD364007F2A32 /* Creators */,
+			);
+			path = "Cell Create";
+			sourceTree = "<group>";
+		};
+		1276ED782054B3D600EB9105 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED762054B3D200EB9105 /* DataManager.swift */,
+				1276ED7B2054B49400EB9105 /* Data Types */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		1276ED7B2054B49400EB9105 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED7E2054B85500EB9105 /* Base.swift */,
+				12173F222055DBD400B67E2A /* Templates.swift */,
+				1276ED802054BB8400EB9105 /* UIElements.swift */,
+				127F5560206C9FB8007F2A32 /* FormElements.swift */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		1276ED842054C93A00EB9105 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED822054C93000EB9105 /* NetworkingManager.swift */,
+				1288A76520578FC5008933A7 /* Fake Endpoints */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1276ED892054D0E300EB9105 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED322054A83600EB9105 /* FirstViewController.swift */,
+				1276ED872054D0DD00EB9105 /* FirstViewControllerViewModel.swift */,
+				1265789B2080394000DBBE8E /* Extensions */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		1276ED99205507B400EB9105 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED97205507AD00EB9105 /* ColorHelper.swift */,
+				12657881207EC6C600DBBE8E /* AlertHelper.swift */,
+				1265788B207FE05700DBBE8E /* DateTimeHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1276ED9A20550A0800EB9105 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED9B20550A1A00EB9105 /* Futura */,
+				123C575B20563B7D005C6B84 /* FontDetect.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1276ED9B20550A1A00EB9105 /* Futura */ = {
+			isa = PBXGroup;
+			children = (
+				1202076A20551BC5002ECEEB /* MyFutura-Bold-Italic.otf */,
+				1202077220551BC6002ECEEB /* MyFutura-Bold.otf */,
+				1202076920551BC5002ECEEB /* MyFutura-Book-Italic.otf */,
+				1202076C20551BC5002ECEEB /* MyFutura-Book.otf */,
+				1202076720551BC5002ECEEB /* MyFutura-Extra-Black-bt.otf */,
+				1202076820551BC5002ECEEB /* MyFutura-Extra-Black.otf */,
+				1202076E20551BC5002ECEEB /* MyFutura-Heavy-Italic.otf */,
+				1202077320551BC6002ECEEB /* MyFutura-Heavy.otf */,
+				1202076F20551BC5002ECEEB /* MyFutura-Light-bt.otf */,
+				1202077020551BC6002ECEEB /* MyFutura-Light-Italic.otf */,
+				1202076B20551BC5002ECEEB /* MyFutura-Light.otf */,
+				1202077120551BC6002ECEEB /* MyFutura-Medium-Condensed-bt.otf */,
+				1202076D20551BC5002ECEEB /* MyFutura-Medium-Itallic.otf */,
+				1202077420551BC6002ECEEB /* MyFutura-Medium.otf */,
+			);
+			path = Futura;
+			sourceTree = "<group>";
+		};
+		1276EDBA20550BD000EB9105 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1276EDBB20550BF800EB9105 /* GenericTableViewCell.swift */,
+				1276ED602054AB0900EB9105 /* Header Cell */,
+				1276ED6A2054AF4100EB9105 /* Section Header Cell */,
+				123C5761205642C6005C6B84 /* Card Cell */,
+				127F5566206DC7A0007F2A32 /* Forms */,
+				1265789E20803E1E00DBBE8E /* Footer */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		127F5566206DC7A0007F2A32 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				127F557F206DD430007F2A32 /* FormView.swift */,
+				127F5581206DD445007F2A32 /* FormView.xib */,
+				127F557E206DD3FA007F2A32 /* Form Input */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		127F556D206DCAB5007F2A32 /* Dropdown Field */ = {
+			isa = PBXGroup;
+			children = (
+				127F5564206DC79C007F2A32 /* DropdownFieldView.swift */,
+				127F556B206DCAB0007F2A32 /* DropdownFieldView.xib */,
+			);
+			path = "Dropdown Field";
+			sourceTree = "<group>";
+		};
+		127F5570206DCACE007F2A32 /* Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				127F5567206DC7F7007F2A32 /* TextFieldView.swift */,
+				127F5577206DCF64007F2A32 /* TextFieldView.xib */,
+				12657885207F0D9900DBBE8E /* Validation Types */,
+			);
+			path = "Text Field";
+			sourceTree = "<group>";
+		};
+		127F557D206DD364007F2A32 /* Creators */ = {
+			isa = PBXGroup;
+			children = (
+				127F5579206DD0AB007F2A32 /* BaseNibsCreator.swift */,
+				127F557B206DD1BA007F2A32 /* CardViewsCreator.swift */,
+				127F5583206DD92F007F2A32 /* FormViewsCreator.swift */,
+			);
+			path = Creators;
+			sourceTree = "<group>";
+		};
+		127F557E206DD3FA007F2A32 /* Form Input */ = {
+			isa = PBXGroup;
+			children = (
+				127F5569206DCA7A007F2A32 /* FieldInputView.swift */,
+				127F5575206DCB14007F2A32 /* FieldInputValidation.swift */,
+				12382903206DDF7E00350EA4 /* Currency Field */,
+				12657886207FE01100DBBE8E /* Date and Time Field */,
+				127F556D206DCAB5007F2A32 /* Dropdown Field */,
+				127F5570206DCACE007F2A32 /* Text Field */,
+			);
+			path = "Form Input";
+			sourceTree = "<group>";
+		};
+		1288A74E20577B5B008933A7 /* Card Header */ = {
+			isa = PBXGroup;
+			children = (
+				1238290A206DE90B00350EA4 /* Default */,
+				1238290B206DE96100350EA4 /* Center */,
+			);
+			path = "Card Header";
+			sourceTree = "<group>";
+		};
+		1288A75120577C90008933A7 /* Card Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1288A74F20577BE1008933A7 /* GenericCardView.swift */,
+				1288A74E20577B5B008933A7 /* Card Header */,
+				1288A75620577E08008933A7 /* Card Large Value */,
+				1288A75B20578032008933A7 /* Card Collection Values */,
+			);
+			path = "Card Templates";
+			sourceTree = "<group>";
+		};
+		1288A75620577E08008933A7 /* Card Large Value */ = {
+			isa = PBXGroup;
+			children = (
+				1288A75220577DE0008933A7 /* CardLargeValueView.swift */,
+				1288A75420577DED008933A7 /* CardLargeValueView.xib */,
+			);
+			path = "Card Large Value";
+			sourceTree = "<group>";
+		};
+		1288A75B20578032008933A7 /* Card Collection Values */ = {
+			isa = PBXGroup;
+			children = (
+				1288A7572057801C008933A7 /* CardCollectionValuesView.swift */,
+				1288A7592057802D008933A7 /* CardCollectionValuesView.xib */,
+				1288A76020578448008933A7 /* Card Collection Value Cell */,
+			);
+			path = "Card Collection Values";
+			sourceTree = "<group>";
+		};
+		1288A76020578448008933A7 /* Card Collection Value Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1288A75C20578442008933A7 /* CardCollectionValueCellCollectionViewCell.swift */,
+				1288A75D20578442008933A7 /* CardCollectionValueCellCollectionViewCell.xib */,
+			);
+			path = "Card Collection Value Cell";
+			sourceTree = "<group>";
+		};
+		1288A76520578FC5008933A7 /* Fake Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED852054CD7000EB9105 /* testy.json */,
+				1288A7662057930F008933A7 /* accounts.json */,
+				123C57592055E732005C6B84 /* ripple.json */,
+				1288A76320578FBD008933A7 /* bitcoin.json */,
+				127F555E206C9D15007F2A32 /* addRipplePurchase.json */,
+				1265789020800B0C00DBBE8E /* addRippleTransfer.json */,
+				126578942080107A00DBBE8E /* addRippleTrade.json */,
+			);
+			path = "Fake Endpoints";
+			sourceTree = "<group>";
+		};
+		12A2D65C2086DF0200B20891 /* Edit Json */ = {
+			isa = PBXGroup;
+			children = (
+				1276ED342054A83600EB9105 /* EditJsonViewController.swift */,
+				12A2D65A2086DEFE00B20891 /* EditJsonViewModel.swift */,
+			);
+			path = "Edit Json";
+			sourceTree = "<group>";
+		};
+		69BB6B1353E8D3438DE8316B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2F40F21FC898D194A516AE0 /* Pods_Sample_JSON_to_UI.framework */,
+				3F501C183E16684F3E610CCF /* Pods_Sample_JSON_to_UITests.framework */,
+				F1EC7F61D13B80B1C2FA1D33 /* Pods_Sample_JSON_to_UIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C772339E4A8F8B196EE1AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CCCB563D72A7F5B3C1E491 /* Pods-Sample JSON to UI.debug.xcconfig */,
+				BD9728037B41E3D43F3AFB6B /* Pods-Sample JSON to UI.release.xcconfig */,
+				8E1EB09E01A39A2C5C67F400 /* Pods-Sample JSON to UITests.debug.xcconfig */,
+				33CBB7F52A41F2E73633E62A /* Pods-Sample JSON to UITests.release.xcconfig */,
+				17374B13AE7E686CD08219BF /* Pods-Sample JSON to UIUITests.debug.xcconfig */,
+				44952924D3BE40700CCD58EA /* Pods-Sample JSON to UIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1276ED572054A83600EB9105 /* Build configuration list for PBXNativeTarget "Sample JSON to UI" */;
 			buildPhases = (
+				510F6C7BF894C4B734FCAF3F /* [CP] Check Pods Manifest.lock */,
 				1276ED292054A83600EB9105 /* Sources */,
 				1276ED2A2054A83600EB9105 /* Frameworks */,
 				1276ED2B2054A83600EB9105 /* Resources */,
+				5A274FE03DAD9F623BDE80D6 /* [CP] Embed Pods Frameworks */,
+				44EAFE19981D4EBB16C30E16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +699,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1276ED5A2054A83600EB9105 /* Build configuration list for PBXNativeTarget "Sample JSON to UITests" */;
 			buildPhases = (
+				F4961DF214A6AA044F398DB1 /* [CP] Check Pods Manifest.lock */,
 				1276ED3F2054A83600EB9105 /* Sources */,
 				1276ED402054A83600EB9105 /* Frameworks */,
 				1276ED412054A83600EB9105 /* Resources */,
+				F837C0F039E168D2222C1D6E /* [CP] Embed Pods Frameworks */,
+				5CC1D9A74E1F85339F2E9314 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +720,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1276ED5D2054A83600EB9105 /* Build configuration list for PBXNativeTarget "Sample JSON to UIUITests" */;
 			buildPhases = (
+				6CBF09CDCCF93A119CB78EC4 /* [CP] Check Pods Manifest.lock */,
 				1276ED4A2054A83600EB9105 /* Sources */,
 				1276ED4B2054A83600EB9105 /* Frameworks */,
 				1276ED4C2054A83600EB9105 /* Resources */,
+				CD5161B8077B3A4674672596 /* [CP] Embed Pods Frameworks */,
+				A91CE779481F231986BF8B75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +788,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1202077C20551BC6002ECEEB /* MyFutura-Heavy-Italic.otf in Resources */,
+				1202077720551BC6002ECEEB /* MyFutura-Book-Italic.otf in Resources */,
+				1265788A207FE01200DBBE8E /* DateTimeFieldView.xib in Resources */,
+				127F555F206C9D15007F2A32 /* addRipplePurchase.json in Resources */,
+				1276ED662054AB5600EB9105 /* HeaderTableViewCell.xib in Resources */,
 				1276ED3D2054A83600EB9105 /* LaunchScreen.storyboard in Resources */,
+				123C5760205642C1005C6B84 /* CardTableViewCell.xib in Resources */,
+				127F5578206DCF65007F2A32 /* TextFieldView.xib in Resources */,
+				1265789120800B0D00DBBE8E /* addRippleTransfer.json in Resources */,
+				1276ED6E2054AFAF00EB9105 /* SectionHeaderTableViewCell.xib in Resources */,
+				1288A75A2057802D008933A7 /* CardCollectionValuesView.xib in Resources */,
+				1202077E20551BC6002ECEEB /* MyFutura-Light-Italic.otf in Resources */,
+				1288A74D20577534008933A7 /* CardHeaderView.xib in Resources */,
+				1202077F20551BC6002ECEEB /* MyFutura-Medium-Condensed-bt.otf in Resources */,
+				1288A75520577DED008933A7 /* CardLargeValueView.xib in Resources */,
+				1202077520551BC6002ECEEB /* MyFutura-Extra-Black-bt.otf in Resources */,
+				126578A22080428600DBBE8E /* FooterView.xib in Resources */,
+				123C575A2055E732005C6B84 /* ripple.json in Resources */,
+				1202077A20551BC6002ECEEB /* MyFutura-Book.otf in Resources */,
+				126578952080107B00DBBE8E /* addRippleTrade.json in Resources */,
+				1202078220551BC6002ECEEB /* MyFutura-Medium.otf in Resources */,
+				1202077B20551BC6002ECEEB /* MyFutura-Medium-Itallic.otf in Resources */,
+				1288A76420578FBD008933A7 /* bitcoin.json in Resources */,
+				1202078120551BC6002ECEEB /* MyFutura-Heavy.otf in Resources */,
 				1276ED3A2054A83600EB9105 /* Assets.xcassets in Resources */,
+				1202078020551BC6002ECEEB /* MyFutura-Bold.otf in Resources */,
+				1202077D20551BC6002ECEEB /* MyFutura-Light-bt.otf in Resources */,
+				1288A7672057930F008933A7 /* accounts.json in Resources */,
+				1202077920551BC6002ECEEB /* MyFutura-Light.otf in Resources */,
+				127F5582206DD445007F2A32 /* FormView.xib in Resources */,
+				1238290E206DE96200350EA4 /* CenterCardHeaderView.xib in Resources */,
+				1202078820553268002ECEEB /* HeaderValueCollectionViewCell.xib in Resources */,
 				1276ED382054A83600EB9105 /* Main.storyboard in Resources */,
+				12382909206DDF7E00350EA4 /* CurrencyFieldView.xib in Resources */,
+				127F556C206DCAB0007F2A32 /* DropdownFieldView.xib in Resources */,
+				1276ED862054CD7100EB9105 /* testy.json in Resources */,
+				1202077620551BC6002ECEEB /* MyFutura-Extra-Black.otf in Resources */,
+				1202077820551BC6002ECEEB /* MyFutura-Bold-Italic.otf in Resources */,
+				1288A75F20578442008933A7 /* CardCollectionValueCellCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +846,207 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44EAFE19981D4EBB16C30E16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UI/Pods-Sample JSON to UI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510F6C7BF894C4B734FCAF3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample JSON to UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A274FE03DAD9F623BDE80D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UI/Pods-Sample JSON to UI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UI/Pods-Sample JSON to UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC1D9A74E1F85339F2E9314 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UITests/Pods-Sample JSON to UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBF09CDCCF93A119CB78EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample JSON to UIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91CE779481F231986BF8B75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UIUITests/Pods-Sample JSON to UIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5161B8077B3A4674672596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UIUITests/Pods-Sample JSON to UIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4961DF214A6AA044F398DB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample JSON to UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F837C0F039E168D2222C1D6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample JSON to UITests/Pods-Sample JSON to UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1276ED292054A83600EB9105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1276ED352054A83600EB9105 /* SecondViewController.swift in Sources */,
+				1288A75320577DE0008933A7 /* CardLargeValueView.swift in Sources */,
+				1288A75020577BE1008933A7 /* GenericCardView.swift in Sources */,
+				126578A42080440B00DBBE8E /* FooterSetup.swift in Sources */,
+				127F5580206DD430007F2A32 /* FormView.swift in Sources */,
+				1265788C207FE05700DBBE8E /* DateTimeHelper.swift in Sources */,
+				127F5563206DC2D3007F2A32 /* GenericTabBarController.swift in Sources */,
+				1265789D20803E1200DBBE8E /* FooterView.swift in Sources */,
+				12657884207F0D6B00DBBE8E /* DoubleFieldValidatiton.swift in Sources */,
+				127F5568206DC7F7007F2A32 /* TextFieldView.swift in Sources */,
+				1265789A2080393D00DBBE8E /* NavigationBarSetup.swift in Sources */,
+				12657889207FE01200DBBE8E /* DateTimeFieldView.swift in Sources */,
+				12382907206DDF7E00350EA4 /* CurrencyFieldView.swift in Sources */,
+				126578A62080519C00DBBE8E /* UpdateData.swift in Sources */,
+				1276ED882054D0DD00EB9105 /* FirstViewControllerViewModel.swift in Sources */,
+				1288A75E20578442008933A7 /* CardCollectionValueCellCollectionViewCell.swift in Sources */,
+				1276ED7F2054B85500EB9105 /* Base.swift in Sources */,
+				12173F232055DBD400B67E2A /* Templates.swift in Sources */,
+				1202078720553268002ECEEB /* HeaderValueCollectionViewCell.swift in Sources */,
+				1288A76220578867008933A7 /* CardBGView.swift in Sources */,
+				1265788E207FE5A000DBBE8E /* ToolbarExtension.swift in Sources */,
+				1238290F206DE96200350EA4 /* CenterCardHeaderView.swift in Sources */,
+				127F556A206DCA7A007F2A32 /* FieldInputView.swift in Sources */,
+				123C575C20563B7D005C6B84 /* FontDetect.swift in Sources */,
+				127F557C206DD1BA007F2A32 /* CardViewsCreator.swift in Sources */,
+				127F5561206C9FB8007F2A32 /* FormElements.swift in Sources */,
+				1276ED772054B3D200EB9105 /* DataManager.swift in Sources */,
+				12A2D65B2086DEFE00B20891 /* EditJsonViewModel.swift in Sources */,
+				1288A74B205774FB008933A7 /* CardHeaderView.swift in Sources */,
+				123C575F205642C1005C6B84 /* CardTableViewCell.swift in Sources */,
+				127F5584206DD92F007F2A32 /* FormViewsCreator.swift in Sources */,
+				1276ED98205507AD00EB9105 /* ColorHelper.swift in Sources */,
+				1276EDBC20550BF800EB9105 /* GenericTableViewCell.swift in Sources */,
+				1276ED6D2054AFAF00EB9105 /* SectionHeaderTableViewCell.swift in Sources */,
+				127F5576206DCB14007F2A32 /* FieldInputValidation.swift in Sources */,
+				1276ED702054B13600EB9105 /* CellCreateManager.swift in Sources */,
+				12657882207EC6C600DBBE8E /* AlertHelper.swift in Sources */,
+				127F557A206DD0AB007F2A32 /* BaseNibsCreator.swift in Sources */,
+				1288A7582057801C008933A7 /* CardCollectionValuesView.swift in Sources */,
+				127F5565206DC79C007F2A32 /* DropdownFieldView.swift in Sources */,
+				123C57632056476F005C6B84 /* CardTableViewModel.swift in Sources */,
+				1276ED652054AB5600EB9105 /* HeaderTableViewCell.swift in Sources */,
+				1276ED832054C93000EB9105 /* NetworkingManager.swift in Sources */,
+				1276ED352054A83600EB9105 /* EditJsonViewController.swift in Sources */,
+				12382908206DDF7E00350EA4 /* CurrencyFieldValidation.swift in Sources */,
 				1276ED312054A83600EB9105 /* AppDelegate.swift in Sources */,
+				1276ED812054BB8400EB9105 /* UIElements.swift in Sources */,
 				1276ED332054A83600EB9105 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +1211,7 @@
 		};
 		1276ED582054A83600EB9105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CCCB563D72A7F5B3C1E491 /* Pods-Sample JSON to UI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +1227,7 @@
 		};
 		1276ED592054A83600EB9105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9728037B41E3D43F3AFB6B /* Pods-Sample JSON to UI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +1243,7 @@
 		};
 		1276ED5B2054A83600EB9105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1EB09E01A39A2C5C67F400 /* Pods-Sample JSON to UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +1261,7 @@
 		};
 		1276ED5C2054A83600EB9105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CBB7F52A41F2E73633E62A /* Pods-Sample JSON to UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +1279,7 @@
 		};
 		1276ED5E2054A83600EB9105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17374B13AE7E686CD08219BF /* Pods-Sample JSON to UIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +1296,7 @@
 		};
 		1276ED5F2054A83600EB9105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44952924D3BE40700CCD58EA /* Pods-Sample JSON to UIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
