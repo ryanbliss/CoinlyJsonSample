@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sample JSON to UI.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4A553716F2E73A8A976270B7CF5A5B705B75C589</string>
+				<key>dateExpires</key>
+				<string>2/18/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>F529U7DU82.com.RyanBliss.Sample-JSON-to-UI</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>F529U7DU82</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>F529U7DU82.com.RyanBliss.Sample-JSON-to-UI</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Sample JSON to UI.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>32c51846-9f0c-4569-880c-eada3a689bed</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>F529U7DU82</string>
+				<key>name</key>
+				<string>Ryan Bliss</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

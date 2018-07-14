@@ -1,0 +1,8 @@
+Dis
+App Thinning Size Report for All Variants of Sample JSON to UI
+
+Variant: Sample JSON to UI-iPhone X.ipa
+Supported devices: iPhone X
+App + On Demand Resources size: 2.9 MB compressed, 8.3 MB uncompressed
+App size: 2.9 MB compressed, 8.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

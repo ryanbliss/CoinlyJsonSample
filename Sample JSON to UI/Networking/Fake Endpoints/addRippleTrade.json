@@ -1,0 +1,167 @@
+{
+    "page": {
+        "title": "Add",
+        "primaryColor": "#157EAC",
+        "backgroundColor": "#E7E9ED",
+        "currentEndpoint": "/v2/screens/add?coinType=XRP&formType=Purchase",
+        "lastEndpoint": "",
+        "navBarIsHidden": false
+    },
+    "navigationBar": {
+        "theme": "#157EAC",
+        "center": {
+            "title": "Ripple",
+            "link": {
+                "nextEndpoint": "coinSelect"
+            }
+        }
+    },
+    "footer": {
+        "theme": "#157EAC",
+        "cancelButton": {
+            "text": "Cancel",
+            "attributes": {
+                "fontSize": 18,
+                "font": "futura-heavy",
+                "color": "#FFFFFF"
+            }
+        },
+        "submitButton": {
+            "text": "Create",
+            "submitEndpoint": "/v2/screens/add?coinType=XRP&data=?",
+            "attributes": {
+                "fontSize": 18,
+                "font": "futura-bold",
+                "color": "#FFFFFF"
+            }
+        }
+    },
+    "sections": [
+                 {
+                 "type": "card",
+                 "card": {
+                 "cardRows": [
+                              {
+                              "type": "sectionHeaderCenter",
+                              "sectionHeaderCenter": {
+                              "label": {
+                              "name": "title",
+                              "text": "Transaction Info",
+                              "attributes": {
+                              "fontSize": 20,
+                              "font": "FuturaBT-Heavy",
+                              "color": "#157EAC"
+                              }
+                              }
+                              }
+                              },
+                              {
+                              "type": "form",
+                              "form": {
+                              "formRows": [
+                                           {
+                                           "type": "dropdownField",
+                                           "id": "type",
+                                           "dropdownField": {
+                                           "label": "Type",
+                                           "placeholder": "Select a type...",
+                                           "text": "Trade",
+                                           "options": [
+                                                       {
+                                                       "text": "Purchase",
+                                                       "reloadEndpoint": "addRipplePurchase"
+                                                       },
+                                                       {
+                                                       "text": "Sale",
+                                                       "reloadEndpoint": "addRipplePurchase"
+                                                       },
+                                                       {
+                                                       "text": "Trade",
+                                                       "reloadEndpoint": "addRippleTrade"
+                                                       },
+                                                       {
+                                                       "text": "Transfer",
+                                                       "reloadEndpoint": "addRippleTransfer"
+                                                       }
+                                                       ]
+                                           }
+                                           },
+                                           {
+                                           "type": "dropdownField",
+                                           "id": "exchange",
+                                           "dropdownField": {
+                                           "label": "Exchange",
+                                           "placeholder": "Select an exchange...",
+                                           "text": "Coinbase",
+                                           "options": [
+                                                       {
+                                                       "text": "Coinbase",
+                                                       "reloadEndpoint": null
+                                                       },
+                                                       {
+                                                       "text": "Bittrex",
+                                                       "reloadEndpoint": null
+                                                       },
+                                                       {
+                                                       "text": "Binance",
+                                                       "reloadEndpoint": null
+                                                       }
+                                                       ]
+                                           }
+                                           },
+                                           {
+                                           "type": "currencyField",
+                                           "id": "paid",
+                                           "currencyField": {
+                                           "label": "Paid",
+                                           "placeholder": "Select the amount you traded for your new coins...",
+                                           "text": "0.00",
+                                           "currencyOption": {
+                                           "text": "BTC",
+                                           "symbol": ""
+                                           },
+                                           "currencyOptions": [
+                                                               {
+                                                               "text": "BTC",
+                                                               "symbol": ""
+                                                               },
+                                                               {
+                                                               "text": "ETH",
+                                                               "symbol": ""
+                                                               },
+                                                               {
+                                                               "text": "LTC",
+                                                               "symbol": ""
+                                                               }
+                                                               ]
+                                           }
+                                           },
+                                           {
+                                           "type": "textField",
+                                           "id": "amount",
+                                           "textField": {
+                                           "type": "double",
+                                           "label": "# Coins",
+                                           "placeholder": "Select the amount of coins you purchased...",
+                                           "text": "0.0"
+                                           }
+                                           },
+                                           {
+                                           "type": "dateAndTimeField",
+                                           "id": "date",
+                                           "dateAndTimeField": {
+                                           "label": "Date",
+                                           "placeholder": "Select a date...",
+                                           "timestamp": 0,
+                                           "pickerMethod": "dateAndTime",
+                                           "restriction": "cannotBeInFuture"
+                                           }
+                                           }
+                                           ]
+                              }
+                              }
+                              ]
+                 }
+                 }
+                 ]
+}
