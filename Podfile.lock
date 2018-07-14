@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - SwiftyJSON (~> 4.0)
+
+SPEC CHECKSUMS:
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 2d12bae08b013ebe5ab5ef50981833762fa0a204
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module Pods_Sample_JSON_to_UIUITests {
+  umbrella header "Pods-Sample JSON to UIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
